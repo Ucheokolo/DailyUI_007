@@ -1,0 +1,125 @@
+body {
+  text-align: center;
+  background-color: #EFFFFD;
+  color: #ffff;
+}
+h1{
+  padding-top: 10%;
+  font-family: 'Ubuntu', sans-serif;
+}
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h6 {
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  margin: 0;
+}
+hr {
+  width: 90%;
+  margin-left: 9%;
+}
+
+.container-fluid {
+  width: 30%;
+  padding: 12px;
+  border-radius: 1rem;
+  background-color: #222831;
+  text-align: center;
+}
+.btn {
+  background-color: #393E46;
+  width: 4rem;
+  border-radius: 1rem;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+.bi-person-circle {
+  float: right;
+  font-size: 3rem;
+
+}
+
+.container {
+  background-color: #393E46;
+  border-radius: 1rem;
+  margin: 3% 0;
+  text-align: left;
+  padding: 12px;
+}
+
+.features-bi {
+  float:left;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  border-radius: 15%;
+}
+
+.bi-wifi{
+  background-color: #4D96FF;
+}
+.bi-volume-up{
+  background-color: #9254C8;
+}
+.bi-app-indicator{
+  background-color: #F47340;
+}
+.bi-brightness-high-fill{
+  background-color: #6BCB77;
+}
+.bi-file-image{
+  background-color: #FF8080;
+}
+.bi-palette-fill{
+  background-color: #DB6B97;
+}
+.bi-house-door-fill{
+  background-color: #56BBF1;
+}
+.bi-lock-fill{
+  background-color: #6EDCD9;
+}
+.bi-fingerprint{
+  background-color: #9254C8;
+}
+.bi-shield-lock-fill{
+  background-color: #86C6F4;
+}
+.bi-geo-alt-fill{
+  background-color: #34BE82;
+}
+.bi-google{
+  background-color: #4D96FF;
+}
+.bi-arrow-repeat{
+  background-color: #42C2FF;
+}
+.bi-gear-fill{
+  background-color: #FFC300;
+}
+
+@media (max-width: 1320px) {
+  .container-fluid {
+    width: 35%;
+
+  }
+}
+@media (max-width: 1130px) {
+  .container-fluid {
+    width: 50%;
+
+  }
+}
+@media (max-width: 793px) {
+  .container-fluid {
+    width: 80%;
+
+  }
+}
